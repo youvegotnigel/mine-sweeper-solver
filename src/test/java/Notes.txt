@@ -1,0 +1,23 @@
+Possible values for class name
+    if square is blank ---> square blank
+
+    if square is open
+         if square is open0 ---> square open0
+         if square is open1 ---> square open1
+         if square is open2 ---> square open2
+         if square is openN ---> square openN
+
+
+
+    if square has bomb
+        if square is bomb marked     ---> square bombflagged
+        if square is not bomb marked
+            if not reveled ---> square bombdeath
+            if reveled     ---> square bombrevealed
+
+
+Objective : need to find the element ids of the possible bombFlags
+
+Exported Game
+
+eyJ2ZXJzaW9uIjoxLCJnYW1lVHlwZUlkIjoxLCJudW1Sb3dzIjo5LCJudW1Db2xzIjo5LCJudW1NaW5lcyI6MTAsImdyaWRPYmoiOltbMSwyLDIsMSwwLDEsMSwxLDAsMCwwXSxbMSwtOSwtOSxbMSwxLDAsMF0sWzAsMSwwLDBdLFsxLDEsMCwwXSwtMTAsWzIsMSwwLDBdLFsxLDEsMCwwXSxbMSwxLDAsMF0sWzAsMSwwLDBdXSxbMSxbMiwxLDAsMF0sWzMsMSwwLDBdLFsyLDEsMCwwXSxbMSwxLDAsMF0sWzEsMSwwLDBdLFsxLDEsMCwwXSxbMiwxLDAsMF0sLTEwLFsxLDEsMCwwXSxbMCwxLDAsMF1dLFswLFswLDEsMCwwXSxbMSwxLDAsMF0sLTEwLFsxLDEsMCwwXSxbMCwxLDAsMF0sWzAsMSwwLDBdLFsxLDEsMCwwXSxbMSwxLDAsMF0sWzEsMSwwLDBdLFswLDEsMCwwXV0sWzAsWzAsMSwwLDBdLFsxLDEsMCwwXSxbMSwxLDAsMF0sWzEsMSwwLDBdLFswLDEsMCwwXSxbMCwxLDAsMF0sWzAsMSwwLDBdLFswLDEsMCwwXSxbMCwxLDAsMF0sMF0sWzAsWzAsMSwwLDBdLFswLDEsMCwwXSxbMCwxLDAsMF0sWzAsMSwwLDBdLFswLDEsMCwwXSxbMCwxLDAsMF0sWzAsMSwwLDBdLFswLDEsMCwwXSxbMCwxLDAsMF0sMF0sWzEsWzEsMSwwLDBdLFsxLDEsMCwwXSxbMCwxLDAsMF0sWzAsMSwwLDBdLFswLDEsMCwwXSxbMCwxLDAsMF0sWzEsMSwwLDBdLFsxLDEsMCwwXSxbMSwxLDAsMF0sMF0sWzEsLTEwLFsxLDEsMCwwXSxbMCwxLDAsMF0sWzEsMSwwLDBdLFsxLDEsMCwwXSxbMSwxLDAsMF0sWzEsMSwwLDBdLC0xMCxbMSwxLDAsMF0sWzAsMSwwLDBdXSxbMSxbMSwxLDAsMF0sWzIsMSwwLDBdLFsxLDEsMCwwXSxbMywxLDAsMF0sLTksWzIsMSwwLDBdLFsxLDEsMCwwXSxbMSwxLDAsMF0sWzEsMSwwLDBdLFswLDEsMCwwXV0sWzAsWzAsMSwwLDBdLFsxLDEsMCwwXSwtMTAsWzMsMSwwLDBdLC05LFsyLDEsMCwwXSxbMCwxLDAsMF0sWzAsMSwwLDBdLFswLDEsMCwwXSxbMCwxLDAsMF1dLFswLDAsMSxbMSwxLDAsMF0sWzIsMSwwLDBdLFsxLDEsMCwwXSwxLDAsMCwwLDBdXSwidGltZSI6MTI4fQ==
